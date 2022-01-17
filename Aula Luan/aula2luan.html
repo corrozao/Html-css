@@ -1,0 +1,73 @@
+<html>
+ <head>
+     <title>Aula 2</title>
+  </head>
+  <body>
+      <form>
+      <!--A tag input é uma caixa de texto padrão. Tem um atributo chamado (type) que possui os valores (text,passowrd,email)-->
+      <!-- Outro atributo de input é o (placeholder) seu valor é um texto que explica ao clientoq é para ser feito -->
+      <!--A tag Label serve para engolbar um texto que irá selecionar um input. Para isso, o seu input deverá ter um id de referência.--> 
+      <!--readonly serve para inputs do tipo (texto)-->
+      <!-- Disable serve para os inputs do tipo text, botôes e opções de seleões(checkbox e radio)-->
+      <label for="nome">Digite o seu nome:</label><input id="nome" type="text" placeholder="Digite seu nome" required> <br>
+      <!-- O atributo required serve para inputs(text, password, email e textarea)-->
+<!-- Os inputs com ty (checkbox ou radio) ~sao para escolhas. Elas possuem um atributo chamado (name) que caracteriza o seu grupo. As checkbox podem ter vários valores já os radios tem apenas 1valor por grupo.-->
+<br><br><br>
+
+
+
+Selecione os seus modelos de carros:
+<input id="ferrari" type="checkbox" name="Carro"><label for="ferrari">Ferrari</label>
+<input id="gol" type="checkbox" name="Carro"> <label for="gol">gol</label>
+<input id="civic" type="checkbox" name="Carro"> <label for="civic">civic</label>
+<br><br><br>
+Selecione o seu gênero:
+<input id="generom" type="radio" name="genero"> <label for="generom">Masculino</label>
+<input id="generof" type="radio" name="genero"> <label for="generof">Feminino</label>
+<input id="generoo" type="radio" name="genero"> <label for="generoo">Outro(a)</label>
+<br> <br><br>
+
+
+Qual a sua linguagem preferida:
+<input type="radio" name="linguagem"> Php
+<input type="radio" name="linguagem"> C#
+<input type="radio" name="linguagem"> Python 
+<br><br><br>
+
+
+
+
+Selecione o seu estado:<br>
+<!--O input select é uma lista de seleção. Suas opções ficam dentro das tags options-->
+    <select>
+
+<option>Selecione</option>
+    <option>Rio de Janeiro</option>
+    <option>São Paulo</option>
+    <option>Bahia</option>
+    <option>Minas Gerais</option>
+
+</select>
+
+<br><br><br>
+<label for="texto">Digite a sua mensagem:</label>
+    <br>
+  <!-- A textárea é uma caixa de texto grande. Possui atributos como(rows) Npumeros de linhas e (cols) número de colunas-->  
+<textarea id="texto" rows="3" cols="50" placeholder="Digite o seu texto"></textarea>
+<br>
+<!-- A tag button é um botão padrão e a tag input com atributo (type submit) serve para enviar um formulário-->
+<button>Botão</button> <input type="submit" value="Botão>
+
+</form>
+
+
+
+
+
+
+
+
+</body>
+
+    
+</html>
