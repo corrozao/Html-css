@@ -9,8 +9,14 @@
         body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgba(128, 255, 0, 0.192);
+        }
         table{
-            width: 500px;
+            width: 600px;
             border-collapse: collapse;
         }
         td, th{
@@ -19,7 +25,7 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(53, 52, 52);
             color: white;
         }
         .num{
@@ -45,11 +51,12 @@
 </body>
 
 <table>
+    <caption>População das Unidades Federativas</caption>
      
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
 
         </tr>
     </thead>
@@ -100,7 +107,7 @@
         </tr>
     </tbody>
     <tfoot>
-        <th>Total de Habitantes</th>
+        <th scope="row">Total de Habitantes</th>
         <td class="num"><strong>210 142 412</strong></td>
     </tfoot>
 </table>
